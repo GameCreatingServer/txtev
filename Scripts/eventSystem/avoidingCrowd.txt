@@ -1,0 +1,14 @@
+begin 0
+textWindow "" "すごい人ごみね…近づかないでおこう…"
+textWindow "" "すごい人ごみね…近づかないでおこう…"
+choice yes no
+{
+	textWindow "" "you_chosen_yes" 1 1 1
+	ending 0
+}
+{
+	textWindow "" "you_chosen_no" 1 1 1
+	ending 0
+}
+delay 0.34
+ending 0

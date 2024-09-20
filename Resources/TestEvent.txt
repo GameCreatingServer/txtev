@@ -1,0 +1,26 @@
+fade Out 0
+setBGI common.desert 
+delay 1
+fade In
+delay 1
+//存在しないActorはエラー表示
+delay 0
+//DBに存在しないデータはエラー表示
+setSI Left zunda.0.false
+setSIVisible Left true
+textWindow "ずんだもん" "テストなのだ！"
+setSI Right zunda.0.false
+setSIVisible Right true
+//コメントアウト
+textWindow "ずんだもん" "ずんだもんなのだ！"
+textWindow "ずんだもん" "ずんだもんなのだ！2"
+textWindow "ずんだもん" "ずんだもんなのだ！3"
+textWindow "ずんだもん" "ずんだもんなのだ！4"
+textWindow "ずんだもん" "ずんだもんなのだ！5"
+setSIVisible Left false
+setSIVisible Right false
+SKIPPOINT 
+hideWindow 
+delay 0.5
+fade Out
+ENDING
